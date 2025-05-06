@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -12,6 +13,16 @@ a {
   font-size: 0.6rem;;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navigation Header */
 nav {
   display: flex;
   justify-content: space-between;
@@ -31,20 +42,78 @@ nav {
   gap: 1rem;
 }
 
-.rightNav li {
-  height: 1rem;
+.rightNav li:nth-child(3) {
+  display: flex;
+  align-items: center;
 }
 
+.profilAccount{
+  border-radius: 50%;
+}
 
 .appIcon {
   width: 1rem;
   height: auto;
 }
-.iconGoogle{
-  width: 20%;
-  height: auto;
+
+/* Header */
+
+.searchContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.icon {
+
+h1 {
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.iconsContainer {
+  border-radius: 50px;
+  height: 2.5rem;
+  width: 30rem;
+  background-color: #3f4454;
+  color: #FAFAFA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+/* .iconGoogle{
+  width: 100%;
+  height: auto;
+} */
+.icon, .iconSearch {
   width: 1rem;
   height: auto;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+/* Search Buttons */
+
+.searchButtons{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 10%;
+}
+
+button {
+  background-color: #3f4454;
+  color: #FAFAFA;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #4b4f5a;
+  cursor: pointer;
 }
