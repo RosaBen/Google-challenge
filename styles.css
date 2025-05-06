@@ -1,3 +1,50 @@
+
 body {
   background-color: #000000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.6rem;;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+
+.leftNav{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.rightNav{
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.rightNav li {
+  height: 1rem;
+}
+
+
+.appIcon {
+  width: 1rem;
+  height: auto;
+}
+.iconGoogle{
+  width: 20%;
+  height: auto;
+}
+.icon {
+  width: 1rem;
+  height: auto;
 }
