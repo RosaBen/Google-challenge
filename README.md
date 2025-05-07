@@ -11,5 +11,5 @@ using :
 
 Then we save the project on github.
 
-![Challenge](http://rosabendevelop.me/Google-challenge/)
+[Challenge](http://rosabendevelop.me/Google-challenge/)
 
